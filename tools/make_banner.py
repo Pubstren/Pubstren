@@ -83,7 +83,7 @@ THEMES = {
     },
 }
 
-DEFAULT_THEME = "dark"
+DEFAULT_THEME = "violet"
 
 # CSS 单独放，避免和 f-string 的花括号打架
 # 全部用 CSS 动画而不用 SMIL：SVG 通过 <img> 加载时，SMIL 的 fill="freeze"
