@@ -13,19 +13,13 @@
     86%  { transform: scaleY(1); }
     100% { transform: scaleY(0); }
   }
-  .name { animation: rise .9s cubic-bezier(.2,.7,.3,1) .15s both; }
-  .sub  { animation: rise .9s cubic-bezier(.2,.7,.3,1) .45s both; }
-  @keyframes rise {
-    from { opacity: 0; transform: translateY(12px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
   .sweep { animation: sw 9s linear 2.5s infinite; }
   @keyframes sw {
     from { transform: translateX(0); }
     to   { transform: translateX(1660px); }
   }
   @media (prefers-reduced-motion: reduce) {
-    .b, .sweep, .name, .sub { animation: none; }
+    .b, .sweep { animation: none; }
   }
 </style>
   <defs>
