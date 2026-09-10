@@ -1,0 +1,8 @@
+# 本地预览产物，由 tools/make_preview.py 生成，不需要提交
+preview.html
+
+# 预览页用的第三方渲染库，需要时可重新下载（脚本会回退到 CDN）
+tools/vendor/
+
+# macOS
+.DS_Store
