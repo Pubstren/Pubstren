@@ -16,6 +16,12 @@
 
 ---
 
+## 个人网站
+
+[梦 · 个人网站与实验室](https://pubstren.github.io/)
+
+---
+
 ## 项目
 
 - **[csi](https://github.com/Pubstren/csi)** — CSI数据采集器。
